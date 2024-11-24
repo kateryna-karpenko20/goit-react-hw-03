@@ -4,7 +4,7 @@
   border: 1px solid black;
   padding: 10px;
   width: 300px;
-  margin-bottom: 10px;
+  margin: 10px 0;
   border-radius: 5px;
 }
 
@@ -14,7 +14,7 @@ input {
   margin-bottom: 10px;
 }
 
-button {
+.button {
   padding: 5px;
   cursor: pointer;
   border: 1px solid grey;
@@ -22,6 +22,15 @@ button {
   border-radius: 2px;
   margin: 0 auto;
   background-color: #ebebeb;
+  outline: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+    border: 1px solid gray;
+    background-color: #ebebeb;
+  }
 }
 
 .error {

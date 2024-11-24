@@ -6,26 +6,33 @@
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  border: 1px solid black;
 }
 
 .contactDetails {
   display: flex;
+  flex-direction: column;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
 .icon {
   margin-right: 10px;
-  color: #007bff;
+  color: black;
+  font-size: 14px;
 }
 
-button {
+.deleteButton {
   cursor: pointer;
   background: none;
   border: none;
-  color: #ff4d4f;
-  font-size: 16px;
-}
-
-button:hover {
-  color: #ff1a1a;
+  background-color: #ebebeb;
+  border: 1px solid grey;
+  font-size: 14px;
+  width: 70px;
+  margin-left: 50px;
 }
