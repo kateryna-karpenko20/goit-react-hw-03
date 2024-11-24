@@ -1,0 +1,21 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  width: 300px;
+}
+
+.input {
+  width: 290px;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.input:focus,
+input:hover,
+input:active {
+  border: 1px solid blue;
+  outline: none;
+}

@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+input {
+  margin-bottom: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid grey;
+  width: 100px;
+  border-radius: 2px;
+  margin: 0 auto;
+  background-color: #ebebeb;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
